@@ -17,7 +17,7 @@ html {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) and (min-width: 720px) {
     html {
         width: 90%;
         margin: 0 auto; 
