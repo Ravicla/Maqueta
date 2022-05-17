@@ -74,8 +74,8 @@ html {
     background-color: #43B864;
     color: white;
     float:left;
-    margin:10px 30px 0 30px;
-    padding:5px 10px
+    margin: 10px 20px 0 30px;
+    padding: 0 5px;
 }
 
 .main-header-left-telefono {
@@ -211,37 +211,32 @@ html {
 
 /*main-footer*/
 .main-footer {
-    position: relative;
     display: flex;
     flex-direction: row;
-    margin: 10px;  
-    padding: 0 20px;
+    align-items: flex-start;
+    font-weight: var(--xs);
+    margin: 30px 0;  
+    padding: 20px 40px;
     background-color: #EBF5FB;
 }
 
-.main-footer-texto {
-    justify-content: center; 
-    flex-grow: 2;
-    flex-basis: 0;
-    font-weight: var(--lg);
-    padding: 20px;   
-}
-
 .titulo-sorteo {
-  font-size: var(--md);  
+  font-size: var(--lg);  
   font-weight: bold;
 }
 
-.texto-formulario {
-    font-size: var(--xs);  
+.main-footer-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
 }
+
 
 .main-footer-datos {
     display: flex;
     flex-direction: column;
+    font-weight: var(--xs);   
     padding: 20px;
-    flex-grow: 1;
-    flex-basis: 0;   
 }
 
 .main-footer-datos-input {
